@@ -1,6 +1,7 @@
 import argparse, socket, random, zen_utils
 
 
+# Page 14
 def client(address, cause_error=False):
     """Connect to a server at `address` and send it some data."""
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
