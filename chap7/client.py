@@ -1,7 +1,5 @@
 import argparse, socket,zen_utils
 import random
-
-
 def client(address, cause_error=False):
     sock = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
     sock.connect(address)
